@@ -1,4 +1,5 @@
 .home-page{
+
     .text-zone{
         position: absolute;
         left: 10%;
@@ -6,13 +7,16 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+        align-items: center;
     }
     h1{
         color: #c92121;
         font-size: 35px;
-        margin: 0;
+        margin: 5;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 400;
+        font-weight: 700;
+        margin-left: 15px;
+        padding-left: 15px;
 
         &::before{
             

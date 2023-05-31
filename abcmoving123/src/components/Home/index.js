@@ -2,15 +2,22 @@ import React from "react"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import './index.scss'
+import AnimatedLetters from "../AnimatedLetters"
+import Sidebar from "../Sidebar"
 const Home = ()=> {
-    const [letterClass, setLetterClass] = useState(initialState)
+    const [letterClass, setLetterClass] = useState('text-animate')
+    const nameArray =['R','o','a','d','R','u','n','n','e','r','s']
 
 
     return (
       <div className="Container home-page">
+      <Sidebar/>
         <div className="text-zone">
           <h1>
-            Road Runners Transportation LLC
+            <AnimatedLetters letterClass={letterClass}
+            strArray={nameArray}
+            idk={15}/> <br/>
+             Transportation LLC
             <br /> 214 Overlook Circle Suite 200
             <br /> Brentwood TN 37027
           </h1>
