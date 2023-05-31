@@ -8,7 +8,9 @@ body {
   font-family: 300 11pc/1.4 'Helvetica Neue', 'san-serif';
   color: #444;
   background-image: url(../src/assets/images/image1.jpeg);
-  overflow: hidden;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  overflow: scroll;
   background-size: cover;
   width: 100% !important ;
   height: 100px !important;

@@ -72,23 +72,26 @@
 
             &::after{
                 content: '';
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-family:  sans-serif;
                 font-size: 18px;
                 position: absolute;
-                line-height: 18px;
+                line-height: 6px;
                 bottom: -20px;
                 margin-left: 20px;
-                left: -30px;
+                left: 30px;
                 opacity: 0.6;
             }
         }
         h2{
-            font-style: 6;
-            font-size: 30px;
+            text-align: center;
+            font-size: 25px;
             color: #0b5fcc;
-            font-weight: 100;
-            font-family: sans-serif;
+            font-weight: 300;
+            font-family: bold sans-serif;
             animation: pulse 1s;
+            white-space: nowrap;
+            
+            
 
             &:nth-of-type(1){
                 animation-delay: 1.1s;
